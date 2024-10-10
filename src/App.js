@@ -9,8 +9,6 @@ import TakeQuiz from './Components/TakeQuiz';
 import QuizList from './Components/QuizList';
 import AdminApprovalPage from './Components/AdminApprovalPage';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import 'bootstrap/dist/js/bootstrap.bundle.min.js';
-
 
 function App() {
   
