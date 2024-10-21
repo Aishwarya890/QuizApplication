@@ -48,7 +48,7 @@ function Registration() {
     
       
     } catch (error) {
-      alert(error.response?.data || "Registration successful. Please wait for Admin approval");
+      alert(error.response?.data || "Registration failed. Please wait for Admin approval");
       navigate('/');
       
     }
