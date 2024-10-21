@@ -22,7 +22,11 @@ function Login() {
             alert(response.data.message); // Show success message
             
             // Store userId in localStorage
-            localStorage.setItem('userId', response.data.userId);
+            const userId=response.data.userId;
+            console.log("userId:::",userId);
+           // localStorage.setItem('userId', userId);
+           localStorage.setItem('user', JSON.stringify({ userId: response.data.userId }));
+        
             
             // Check isAdmin status and redirect accordingly
             if (response.data.admin !== undefined) { // Corrected here

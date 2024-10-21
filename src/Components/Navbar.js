@@ -10,7 +10,7 @@ function Navbar() {
 
     const handleLogout = () => {
         sessionStorage.clear(); 
-        // localStorage.clear();
+        //localStorage.clear();
         navigate('/login'); 
     };
 
